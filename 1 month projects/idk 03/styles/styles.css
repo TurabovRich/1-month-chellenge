@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.card {
+  height: 100%;
+  border-radius: 15px;
+  box-sizing: border-box;
+  box-shadow: 0px 20px 60px black;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+body {
+  background-color:#0d192b;
+  font-family: 'Outfit', Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+hr {
+  background-color: #2f415b;
+  height: 1.6px;
+  border: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero {
+  padding: 16px 16px;
+}
+
+.hero-img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.hero-img {
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 470px;
+  transition: opacity ease-out 300ms;
+}
+
+.hero-icon-div {
+  position: absolute;
+  opacity: 0;
+}
+
+.hero:hover .hero-img {
+  opacity: .6;
+}
+
+.hero:hover .hero-icon-div {
+  opacity: 1;
+}
+
+.avatar-icon {
+  width: 32px;
+  height: 32px;
+  border: 1.6px solid white;
+  border-radius: 16px;
+}
+
+.header-link {
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+  padding-left: 16px;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  color: cyan; 
+  transition: 0.5s;
+}
+
+.header-p {
+  font-size: 16px;
+  padding-left: 16px;
+  color: #8bacda;
+}
+
+.info {
+  display: flex;
+  padding: 0 16px;
+}
+
+.ethereum {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  gap: 8px;
+}
+
+.ethereum-p {
+  color: cyan;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 50%;
+  gap: 8px;
+}
+
+.clock-p {
+  color: cyan;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  gap: 16px;
+  padding-bottom: 8px;
+}
+
+.avatar-p {
+  color: cyan
+}
+
+.avatar-span {
+  color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.header-h1:hover {
+  color: cyan;
+  cursor: pointer;
+}
+
+.avatar-span:hover {
+  color: cyan;
+  cursor: pointer;
+  transition: 0.5s;
+}

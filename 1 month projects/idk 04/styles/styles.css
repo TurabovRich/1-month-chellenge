@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.card {
+  height: 100%;
+  border-radius: 30px;
+  box-sizing: border-box;
+  box-shadow: 0px 20px 60px black;
+  width: 85%;
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+  background: #ffffff;
+  text-align: center;
+}
+
+body {
+  background-color: #e0e8ff;
+  font-family: 'Outfit', Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+hr {
+  background-color: #2f415b;
+  height: 1.6px;
+  border: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero {
+  padding: 16px 16px;
+}
+
+.card-img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+}
+
+.card-img {
+  position: relative;
+  
+  height: 270px;
+}
+
+.header {
+  text-align: center;
+}
+
+.header-h1 {
+  font-size: 24px;
+  color: #3c4354;
+  font-weight: bold;
+  padding-left: 16px;
+  text-decoration: none;
+}
+
+.header-link:hover {
+  transition: 0.5s;
+}
+
+.header-p {
+  font-size: 16px;
+  padding-left: 16px;
+  color: #8bacda;
+}
+
+.info {
+  display: flex;
+  padding: 10px 30px;
+  align-items: center;
+  gap: 20px;
+  background: #f8f9fe;
+  border-radius: 10px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.info-span {
+  display: flex;
+  align-items: center;
+}
+
+.info img {
+  width: 50px;
+  height: 50px;
+}
+
+.info p {
+  margin-left: 10px;
+}
+
+.info a {
+  color: #625aaa;
+}
+
+.info a:hover {
+  text-decoration: none;
+  color: #382ae1;
+}
+
+.padding {
+  padding: 0 40px;
+}
+
+.btn-blue {
+  background-color: #382ae1;
+  color: #fff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #382ae1;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.btn-blue:hover {
+  background: #8a82e9;
+  transition: 0.5s;
+  border: 1px solid #8a82e9;
+  
+}
+
+.linked-txt:hover  {
+  color: #382ae1;
+  transition: 0.5s ease-in-out;
+}
+
+.linked-txt {
+  background: #fff;
+  color: #8e97ae;
+  text-decoration: none;
+}
